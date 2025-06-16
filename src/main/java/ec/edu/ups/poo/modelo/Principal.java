@@ -1,9 +1,9 @@
-package ec.ups.edu.poo;
+package ec.edu.ups.poo.modelo;
 
 public class Principal {
     public static void main(String[] args){
-        Producto p1 = new Producto(12, "Arroz", 2.5);
-        Producto p2 = new Producto(35, "Jugo", 1.75);
+        Producto p1 = new Producto("12", "Arroz", 2.5);
+        Producto p2 = new Producto("35", "Jugo", 1.75);
 
         Carrito carrito = new Carrito();
 
