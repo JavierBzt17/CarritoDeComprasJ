@@ -11,8 +11,8 @@ public class CarritoVIew extends JFrame{
     private JButton eliminarProductosButton;
     private JLabel lblNombre;
     private JLabel lblCantidad;
-    private JCheckBox productoConDescuentoCheckBox;
-    private JCheckBox productoSinDescuentoCheckBox;
+    private JCheckBox siCheckBox;
+    private JCheckBox noCheckBox;
 
     public CarritoVIew(){
         setContentPane(panelPrincipal);
@@ -25,5 +25,8 @@ public class CarritoVIew extends JFrame{
 
     public static void main(String[] args){
         new CarritoVIew();
+    }
+
+    private void createUIComponents() {
     }
 }

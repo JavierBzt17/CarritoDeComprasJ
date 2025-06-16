@@ -8,7 +8,7 @@ public class CarritoTest {
 
     public static void main(String[] args) {
 
-        // Crear servicio de carrito
+        // Crear carrito
         CarritoServiceImpl carrito = new CarritoServiceImpl() {
             @Override
             public void eliminarProducto(int codigoProducto) {
@@ -17,14 +17,14 @@ public class CarritoTest {
         };
 
         // Crear productos
-        Producto p1 = new Producto("1", "Mouse", 15.0);
-        Producto p2 = new Producto("2", "Teclado", 25.0);
+        Producto p1 = new Producto("1", "Mouse", 15.25);
+        Producto p2 = new Producto("2", "Teclado", 25.70);
 
         // Agregar productos al carrito
-        carrito.agregarProducto();  // 2 x $15 = $30
-        carrito.agregarProducto();  // 1 x $25 = $25
+        carrito.agregarProducto();
+        carrito.agregarProducto();
 
-        // Mostrar los ítems
+        // Mostrar ítems
         System.out.println("Contenido del carrito:");
         for (ItemCarrito item : carrito.obtenerItems()) {
             System.out.println("- " + item);
