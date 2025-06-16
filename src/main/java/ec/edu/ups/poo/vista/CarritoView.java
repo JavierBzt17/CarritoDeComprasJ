@@ -1,8 +1,9 @@
 package ec.edu.ups.poo.vista;
 
 import javax.swing.*;
+import java.awt.*;
 
-public class CarritoVIew extends JFrame{
+public class CarritoView extends JFrame{
     private JPanel panelPrincipal;
     private JTextField textField1;
     private JTextField textField2;
@@ -14,7 +15,7 @@ public class CarritoVIew extends JFrame{
     private JCheckBox siCheckBox;
     private JCheckBox noCheckBox;
 
-    public CarritoVIew(){
+    public CarritoView(){
         setContentPane(panelPrincipal);
         setTitle("Carrito de compras");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -24,7 +25,7 @@ public class CarritoVIew extends JFrame{
     }
 
     public static void main(String[] args){
-        new CarritoVIew();
+        new CarritoView();
     }
 
     private void createUIComponents() {

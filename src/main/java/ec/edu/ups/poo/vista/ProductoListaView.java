@@ -12,7 +12,7 @@ public class ProductoListaView extends JFrame {
     private JLabel lblBuscar;
     private JTable tblProductos;
     private JPanel panelPrincipal;
-    private JButton eliminarProductoButton;
+    private JButton eliminarButton;
     private JTable table1;
     private JButton listarButton;
 

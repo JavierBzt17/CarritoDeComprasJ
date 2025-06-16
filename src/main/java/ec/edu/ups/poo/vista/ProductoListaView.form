@@ -28,7 +28,7 @@
             <properties>
               <font style="1"/>
               <foreground color="-1313025"/>
-              <text value="Nombre:"/>
+              <text value="Producto"/>
             </properties>
           </component>
           <component id="1932b" class="javax.swing.JTextField" binding="txtBuscar">
@@ -80,14 +80,14 @@
               </component>
             </children>
           </scrollpane>
-          <component id="bff42" class="javax.swing.JButton" binding="eliminarProductoButton" default-binding="true">
+          <component id="bff42" class="javax.swing.JButton" binding="eliminarButton" default-binding="true">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <background color="-6873804"/>
               <foreground color="-1313025"/>
-              <text value="Eliminar Producto"/>
+              <text value="Eliminar"/>
             </properties>
           </component>
         </children>
