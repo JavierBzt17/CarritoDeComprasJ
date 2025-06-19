@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
 
-public class ProductoAnadirView extends JFrame {
+public class ProductoAnadirView extends JInternalFrame {
 
     private JPanel panelPrincipal;
     private JLabel lblCodigo;
@@ -27,7 +27,7 @@ public class ProductoAnadirView extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 500);
         //setResizable(false);
-        setLocationRelativeTo(null);
+        //setLocationRelativeTo(null);
         setVisible(true);
         //pack();
 

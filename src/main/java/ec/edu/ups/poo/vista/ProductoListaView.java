@@ -6,7 +6,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.util.List;
 
-public class ProductoListaView extends JFrame {
+public class ProductoListaView extends JInternalFrame {
     private JTextField txtBuscar;
     private JButton btnBuscar;
     private JLabel lblBuscar;
@@ -22,7 +22,7 @@ public class ProductoListaView extends JFrame {
         setTitle("Listado de Productos");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 600);
-        setLocationRelativeTo(null);
+        //setLocationRelativeTo(null);
         setVisible(true);
     }
 
